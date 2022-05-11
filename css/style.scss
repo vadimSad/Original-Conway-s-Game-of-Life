@@ -1,0 +1,44 @@
+@import "nullstyle.scss";
+
+body{
+    background-color: rgb(112, 112, 112);
+    font-size: 36px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 3% 10%;
+    overflow: hidden;
+}
+
+.canvas{
+    max-width: 100%;
+}
+
+.btn{
+    padding: 15px;
+}
+
+.flex{
+    display: flex;
+    gap: 50px;
+}
+
+#c1{
+    width:600px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+a{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    &:hover {
+        background-color: rgb(216, 216, 216);
+    }
+}
+
+p{
+    padding: 15px;
+}
